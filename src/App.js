@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import Roster from "./Components/Roster";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Schedule from "./Components/Schedule";
+import Stats from "./Components/Stats";
 
 function App() {
   return (
@@ -16,10 +17,9 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Roster" element={<Roster />} />
           <Route path="/Schedule" element={<Schedule />} />
+          <Route path="/Stats" element={<Stats />} />
         </Routes>
       </Router>
-
-      
     </div>
   );
 }
