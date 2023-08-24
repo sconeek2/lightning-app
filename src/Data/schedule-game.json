@@ -1,0 +1,64 @@
+[
+    
+    {
+        "Date": "2023/10/4",
+        "Time": "10:34 AM",
+        "City": "New York City",
+        "State": "NY"
+    },
+    {
+        "Date": "2023/11/24",
+        "Time": "2:34 PM",
+        "City": "Fresno",
+        "State": "CA"
+    },
+    {
+        "Date": "2023/10/27",
+        "Time": "11:51 AM",
+        "City": "Dallas",
+        "State": "TX"
+    },
+    {
+        "Date": "2023/9/16",
+        "Time": "1:34 PM",
+        "City": "Garden Grove",
+        "State": "CA"
+    },
+    {
+        "Date": "2023/9/9",
+        "Time": "12:10 PM",
+        "City": "North Little Rock",
+        "State": "AR"
+    },
+    
+    {
+        "Date": "2021/12/11",
+        "Time": "2:55 PM",
+        "City": "Naples",
+        "State": "FL"
+    },
+    {
+        "Date": "2023/10/21",
+        "Time": "2:36 PM",
+        "City": "Erie",
+        "State": "PA"
+    },
+    {
+        "Date": "2024/11/1",
+        "Time": "10:45 AM",
+        "City": "Memphis",
+        "State": "TN"
+    },
+    {
+        "Date": "2020/12/9",
+        "Time": "1:48 PM",
+        "City": "Houston",
+        "State": "TX"
+    },
+    {
+        "Date": "2022/9/23",
+        "Time": "1:03 PM",
+        "City": "Grand Forks",
+        "State": "ND"
+    }
+]
