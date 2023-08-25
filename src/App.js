@@ -7,6 +7,7 @@ import Roster from "./Components/Roster";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Schedule from "./Components/Schedule";
 import Stats from "./Components/Stats";
+import SnackForm from "./Components/SnackForm";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Roster" element={<Roster />} />
           <Route path="/Schedule" element={<Schedule />} />
           <Route path="/Stats" element={<Stats />} />
+          <Route path="/SnackForm" element={<SnackForm />} />
         </Routes>
       </Router>
     </div>

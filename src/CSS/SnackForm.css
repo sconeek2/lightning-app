@@ -1,0 +1,16 @@
+.snack-date-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.snack-date {
+  width: 100px;
+}
+
+input {
+  width: 20em;
+}
+
+button {
+  border-radius: 15px;
+}
