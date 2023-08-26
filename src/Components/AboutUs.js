@@ -1,17 +1,9 @@
 import React from "react";
 import "../CSS/Home.css";
-import team from "../Images/team.jpg";
-//import { Link } from "react-router-dom";
 
 const AboutUs = () => {
   return (
     <div className="home-header">
-      <h1>TSC Lightning</h1>
-
-      <div className="home-image">
-        <img src={team} alt="soccer team"></img>
-      </div>
-
       <p>
         Welcome to the exhilarating world of TSC Lightning! We are a passionate
         U11 youth soccer team dedicated to fostering both sportsmanship and

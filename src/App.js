@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.css";
 import "./CSS/App.css";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -8,12 +9,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Schedule from "./Components/Schedule";
 import Stats from "./Components/Stats";
 import SnackForm from "./Components/SnackForm";
+import Hero from "./Components/Hero";
 
 function App() {
   return (
     <div className="home-body">
       <Router className="router">
-        <Navbar />
+        {/* <Navbar /> */}
+        <Hero />
         <Routes>
           <Route path="/Home" element={<Home />} />
           <Route path="/Roster" element={<Roster />} />
