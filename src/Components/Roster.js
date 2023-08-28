@@ -6,26 +6,17 @@ import "../CSS/Roster.css";
 const Roster = () => {
   return (
     <div className="rosterContainer">
-      <table id="roster">
-        <thead>
-          <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Age</th>
-            <th>Jersey #</th>
-          </tr>
-        </thead>
-        <tbody>
+      <div className="player-card-container">
         {rosterData.map((item) => (
-          <tr key={item.jersey_number}>
-            <td>{item.first_name}</td>
-            <td>{item.last_name}</td>
-            <td>{item.age}</td>
-            <td>{item.jersey_number}</td>
-          </tr>
+          <div className="player-container" key={item.jersey_number}>
+            <p>
+              {item.first_name} {item.last_name}
+            </p>
+            <p>Age: {item.age}</p>
+            <p>#{item.jersey_number}</p>
+          </div>
         ))}
-      </tbody>
-      </table>
+      </div>
     </div>
   );
 };
