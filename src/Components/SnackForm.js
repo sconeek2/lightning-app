@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import game_schedule from "../Data/schedule-game.json";
 import { formatDate } from "./dateUtils";
+import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 import "../CSS/SnackForm.css";
 
 const SnackForm = () => {
@@ -13,13 +15,21 @@ const SnackForm = () => {
 
   return (
     <div className="snack-page-container">
-      {game_schedule.map((item) => (
-        <div className="snack-date-container">
-          <p className="snack-date">{formatDate(item.Date)}</p>
-          <input type="text"></input>
-          <button>Submit</button>
-        </div>
-      ))}
+      <Form className="form-container">
+        {game_schedule.map((item) => (
+          <div className="snack-date-container">
+            <Form.Group className="mb-3">
+              <Form.Label>Game Date: {formatDate(item.Date)}</Form.Label>
+              <Form.Control type="input" placeholder="Enter Name" />
+            </Form.Group>
+            <Button variant="primary" type="button" id="form-button">
+              Submit
+            </Button>
+
+            <p className="signed-up-person">placeholder</p>
+          </div>
+        ))}
+      </Form>
     </div>
   );
 };
