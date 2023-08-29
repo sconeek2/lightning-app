@@ -9,11 +9,12 @@ const Roster = () => {
       <div className="player-card-container">
         {rosterData.map((item) => (
           <div className="player-container" key={item.jersey_number}>
-            <p>
+            <p className='player_number'>#{item.jersey_number}</p>
+            <p className='player_name'>
               {item.first_name} {item.last_name}
             </p>
-            <p>Age: {item.age}</p>
-            <p>#{item.jersey_number}</p>
+            <p className='player_age'>Age: {item.age}</p>
+
           </div>
         ))}
       </div>

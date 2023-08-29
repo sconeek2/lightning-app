@@ -1,0 +1,21 @@
+.signed-up-person {
+  width: 10%;
+  align-self: center;
+}
+
+.snack-date-container {
+  display: flex;
+  width: 50%;
+}
+
+.game-day {
+  width: 115px;
+  align-self: center;
+}
+
+input {
+}
+
+label {
+  display: flex;
+}

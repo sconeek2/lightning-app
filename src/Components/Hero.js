@@ -9,7 +9,7 @@ import {
   MDBContainer,
 } from "mdb-react-ui-kit";
 import "../CSS/Hero.css";
-import team from "../Images/team.jpg";
+import team from "../Images/net.png";
 
 export default function BgImageWithNavbar() {
   return (
