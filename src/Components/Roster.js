@@ -33,12 +33,20 @@ const Roster = () => {
             <div className='player_pic_container'>
               <img className='player_pic' src={playerImages[Math.floor(Math.random() * 10) + 1]} alt='soccer player'></img>
             </div>
-            <div className='player_bio_container'>
-              <h2 className='player_number'>#{item.jersey_number}</h2>
-              <p className='player_name'>
-                {item.first_name} {item.last_name}
-              </p>
-              <p className='player_age'>Age: {item.age}</p></div>
+            <div className='bio_section_container'>
+              <div id='player_bio_container'>
+
+
+                <p className='bio-info' id='player_name'>
+                  {item.first_name} {item.last_name}
+                </p>
+                <p className='bio-info' id='player_position'>{item.position}</p>
+                <p className='bio-info' id='player_age'>Age: {item.age}</p>
+              </div>
+              <div id='test'>
+                <p className='bio-info' id='player_number'>#{item.jersey_number}</p>
+              </div>
+            </div>
 
           </div>
         ))}

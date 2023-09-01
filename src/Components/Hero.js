@@ -1,6 +1,6 @@
 import React from "react";
 import "../CSS/Hero.css";
-import backgroundVid from '../Images/video.mp4';
+import backgroundVid from '../Images/video1.mp4';
 
 
 
