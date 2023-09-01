@@ -1,21 +1,12 @@
-body {
-  background-color: red;
-}
-
-
 .home-body {
-  margin: 10px 10em 10px 10em;
-  border: .1px black solid;
+  margin: 0 10em 10px 10em;
   border-radius: 10px;
-  background-color: #fefae0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .home-body *:not(.home-body) {
   margin: 10px; /* Adjust the margin value as needed */
 }
-
-
 
 h1 {
   text-align: center;
@@ -24,8 +15,7 @@ h1 {
 p {
   margin-top: 3em;
 }
-
-.card-container {
+ß .card-container {
   display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -33,24 +23,21 @@ p {
   width: 15em;
 }
 
-
-
 .card-container p {
   margin: 5px;
 }
 
-.home-image{
+.home-image {
   display: flex;
   height: 35em;
   justify-content: center;
-  
 }
 
 footer {
   height: 50px;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }

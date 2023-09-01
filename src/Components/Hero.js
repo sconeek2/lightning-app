@@ -13,9 +13,9 @@ import team from "../Images/net.png";
 
 export default function BgImageWithNavbar() {
   return (
-    <header style={{ paddingLeft: 0 }}>
-      <MDBNavbar expand="lg" light bgColor="white">
-        <MDBContainer fluid>
+    <header >
+      {/* <MDBNavbar expand="lg" light bgColor="white" id='navbar-container'>
+        <MDBContainer fluid id='test'>
           <MDBNavbarToggler
             aria-controls="navbarExample01"
             aria-expanded="false"
@@ -45,7 +45,7 @@ export default function BgImageWithNavbar() {
             </MDBNavbarNav>
           </div>
         </MDBContainer>
-      </MDBNavbar>
+      </MDBNavbar> */}
 
       <div
         className="p-5 text-center bg-image"

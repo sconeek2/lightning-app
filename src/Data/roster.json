@@ -3,73 +3,91 @@
     "jersey_number": 73,
     "first_name": "Raquela",
     "last_name": "Ellar",
-    "age": 10
+    "age": 10,
+    "position": "Goalie"
   },
   {
     "jersey_number": 92,
     "first_name": "Holden",
     "last_name": "Callway",
-    "age": 10
+    "age": 10,
+    "position": "Forward"
   },
   {
     "jersey_number": 8,
     "first_name": "Marlon",
     "last_name": "Barrabeale",
-    "age": 11
+    "age": 11,
+    "position": "Striker"
   },
   {
     "jersey_number": 5,
     "first_name": "Cherey",
     "last_name": "Hanlin",
-    "age": 10
+    "age": 10,
+    "position": "Midfielder"
   },
   {
     "jersey_number": 84,
     "first_name": "Erinna",
     "last_name": "Veivers",
-    "age": 11
+    "age": 11,
+    "position": "Center Back"
   },
   {
     "jersey_number": 27,
     "first_name": "Taddeusz",
     "last_name": "Meuse",
-    "age": 11
+    "age": 11,
+    "position": "Left Back"
   },
   {
     "jersey_number": 62,
     "first_name": "Cullan",
     "last_name": "Orans",
-    "age": 10
+    "age": 10,
+    "position": "Center Mid"
   },
   {
     "jersey_number": 66,
     "first_name": "Rodge",
     "last_name": "Duhig",
-    "age": 11
+    "age": 11,
+    "position": "Forward"
   },
   {
     "jersey_number": 90,
     "first_name": "Becki",
     "last_name": "Darlasson",
-    "age": 11
+    "age": 11,
+    "position": "Goalie"
   },
-  { "jersey_number": 52, "first_name": "Jeth", "last_name": "Batt", "age": 11 },
+  {
+    "jersey_number": 52,
+    "first_name": "Jeth",
+    "last_name": "Batt",
+    "age": 11,
+    "position": "Forward"
+  },
   {
     "jersey_number": 52,
     "first_name": "Dora",
     "last_name": "Reinhardt",
-    "age": 11
+    "age": 11,
+    "position": "Right Back"
   },
   {
     "jersey_number": 2,
     "first_name": "Rodie",
     "last_name": "McLanaghan",
-    "age": 10
+    "age": 10,
+    "position": "Midfielder"
   },
   {
     "jersey_number": 92,
     "first_name": "Sianna",
     "last_name": "Parrott",
-    "age": 11
+    "age": 11,
+    "position": "Forward"
   }
 ]

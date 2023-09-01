@@ -1,12 +1,21 @@
 #background {
-  height: 600px;
+  height: 300px;
 }
 
 .mb-3 {
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-color: white;
 }
 
 h1 {
-  color: yellow;
+  color: black;
+}
+
+#test {
+  height: 3em;
+  margin-top: 15px;
+}
+#navbar-container {
+  height: 3em;
+  width: 100%;
 }
