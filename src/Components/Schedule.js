@@ -1,4 +1,5 @@
 import React from "react";
+import "../CSS/Schedule.css";
 import game_schedule from "../Data/schedule-game.json";
 import { formatDate } from "./dateUtils";
 
@@ -12,7 +13,7 @@ const Schedule = () => {
 
   return (
     <div className="rosterContainer">
-      <table id="roster">
+      <table id="schedule">
         <thead>
           <tr>
             <th>Date</th>

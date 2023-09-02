@@ -1,10 +1,11 @@
 import React from "react";
 import game_data from "../Data/combined_game_data.json";
+import "../CSS/CreateTable.css";
 
 const createTable = (props) => {
 
   return (
-    <div>
+    <div className='main-table-container'>
       <h2>Game {props.num}</h2>
       <table id={`game${props.num}`} className="game-stats">
         <thead>

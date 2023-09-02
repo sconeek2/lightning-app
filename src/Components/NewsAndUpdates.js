@@ -1,9 +1,9 @@
 import React from "react";
-import "../CSS/Home.css";
+import "../CSS/NewsAndUpdates.css";
 //import { Link } from "react-router-dom";
 
 const NewsAndUpdates = () => {
-  
+
   return (
     <div>
 

@@ -1,3 +1,7 @@
+.rosterContainer {
+  margin-top: 20px;
+}
+
 #roster {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -13,10 +17,12 @@
 
 .player-container {
   display: flex;
+  justify-content: space-around;
   border-radius: 5px;
   width: 400px;
   height: 150px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-bottom: 30px;
 }
 
 #player_bio_container {

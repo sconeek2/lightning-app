@@ -1,5 +1,5 @@
 import React from "react";
-import "../CSS/Home.css";
+import "../CSS/ImportantDates.css";
 import gameData from "../Data/schedule-game.json";
 //import { Link } from "react-router-dom";
 
@@ -33,7 +33,7 @@ const ImportantDates = () => {
   const gameIndex = daysDifferences.indexOf(smallestPositive); //returning the index of whichever element has the smallest difference in days.  This will be used to look up the game data from array gameData.
 
   return (
-    <div>
+    <div className='imp-dates-container'>
 
       <h2>Important Dates</h2>
       <div className="dates-container">
@@ -53,7 +53,7 @@ const ImportantDates = () => {
             <li></li>
             <li></li>
           </ul>
-        
+
         </div>
       </div>
     </div>

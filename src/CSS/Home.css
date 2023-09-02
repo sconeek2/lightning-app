@@ -1,11 +1,4 @@
 .home-body {
-  margin: 0 10em 10px 10em;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.home-body *:not(.home-body) {
-  margin: 10px; /* Adjust the margin value as needed */
 }
 
 h1 {
